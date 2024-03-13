@@ -4,6 +4,8 @@ import Destinations from "../components/Destinations";
 import Commitment from "../components/Commitment";
 import Beauty from "../components/Beauty";
 import Faq from "../components/Faq";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
       <Commitment />
       <Beauty />
       <Faq />
+      <Testimonials />
+      <Footer />
     </div>
   );
 }

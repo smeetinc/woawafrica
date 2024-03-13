@@ -18,23 +18,27 @@ function Faq() {
       <div className="mt-4 mb-3">
         <Accordion
           title="What makes WoawAfrica unique?"
-          answer="I go answer later"
+          answer="WoawAfrica stands out for its immersive travel experiences, expertly curated destinations, and seamless booking process.
+          "
         />
         <Accordion
           title="How do I book a travel experience on WoawAfrica?"
-          answer="I go answer later"
+          answer="Booking with WoawAfrica is easy! Simply browse our destinations, select your preferred experience, and follow the user-friendly booking steps.
+          "
         />
         <Accordion
           title="Are the prices on WoawAfrica inclusive of all costs?"
-          answer="I go answer later"
+          answer="Yes, our prices include all relevant costs for a transparent and hassle-free booking process.
+          "
         />
         <Accordion
           title="Can I customize my travel itinerary?"
-          answer="I go answer later"
+          answer="Absolutely! WoawAfrica offers customizable itineraries to cater to your specific interests, ensuring a personalized and memorable journey.
+          "
         />
         <Accordion
           title="Is it safe to travel with WoawAfrica"
-          answer="I go answer later"
+          answer="Safety is our top priority. We collaborate with trusted partners, including airports and partner nations' tourism boards, and provide comprehensive information to ensure your travel experience is secure and enjoyable."
         />
       </div>
       <div className="mt-4 mb-2">
