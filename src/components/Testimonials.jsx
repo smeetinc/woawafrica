@@ -8,7 +8,7 @@ function Testimonials() {
         <span className="text-secondary-300">Customer</span>{" "}
         <span className="text-primary-200">testimonials</span>
       </h2>
-      <div className="mt-12 mb-10 grid grid-cols-3 gap-4">
+      <div className="mt-12 mb-10 lg:grid grid-cols-3 gap-4">
         <Testimony
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
           avatar="/assets/Emoji.png"
