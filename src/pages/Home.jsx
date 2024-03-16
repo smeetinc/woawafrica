@@ -5,7 +5,6 @@ import Commitment from "../components/Commitment";
 import Beauty from "../components/Beauty";
 import Faq from "../components/Faq";
 import Testimonials from "../components/Testimonials";
-import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -16,7 +15,6 @@ function Home() {
       <Beauty />
       <Faq />
       <Testimonials />
-      <Footer />
     </div>
   );
 }
