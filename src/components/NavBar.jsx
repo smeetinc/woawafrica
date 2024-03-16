@@ -32,7 +32,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <header className="px-4 shadow fixed w-screen z-50 bg-neutral-500 h-fit overflow-x-hidden">
+    <header className="px-4 shadow fixed w-screen z-50 bg-neutral-500 h-fit">
       <nav className="flex justify-between lg:justify-normal gap-6 items-center">
         <div>
           <img
