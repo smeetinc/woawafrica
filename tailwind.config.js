@@ -7,6 +7,7 @@ export default {
         Inter: "'Inter', serif",
         Lora: "'Lora', serif",
         Montserrat: "'Montserrat', sans-serif",
+        Cormorant: "'Cormorant', serif",
       },
       colors: {
         neutral: {

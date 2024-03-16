@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 function Faq() {
   return (
-    <div className="bg-neutral-500 px-8 py-14">
+    <div className="bg-neutral-500 px-2 lg:px-8 py-14">
       <div className="mt-2 mb-6">
-        <h3 className="text-5xl font-bold ">
+        <h3 className="text-6xl font-bold ">
           <span className="text-secondary-300 mt-2">Frequently</span> Asked{" "}
-          <span className="text-primary-200">Questions</span>Questions
+          <span className="text-primary-200">Questions</span>
         </h3>
         <p className="my-3">
           Explore the Ins and Outs of Your African Adventure with WoawAfrica's
