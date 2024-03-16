@@ -2,10 +2,10 @@ import React from "react";
 
 function Commitment() {
   return (
-    <div className="bg-neutral-400 px-8 py-8">
+    <div className="bg-neutral-400 px-2 lg:px-8 py-8">
       <div className="w-full text-center my-8">
         <p className="font-Lora font-semibold leading-4 my-3">Tagline</p>
-        <h2 className="text-5xl/[60px] font-bold">
+        <h2 className="text-5xl/[60px] font-bold text-center">
           Sustainability <span className="text-primary-200">Commitment</span>
         </h2>
         <p className="text-lg font-normal font-Lora mt-3">

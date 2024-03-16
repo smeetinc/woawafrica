@@ -52,6 +52,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .beauty-container {
+    padding: 2rem 2rem;
+  }
   .beauty-title {
     font-size: 2.5rem;
   }

@@ -44,10 +44,12 @@ function Hero() {
             <label htmlFor="destinations" className="font-bold font-Lora">
               Destinations
             </label>
-            <select id="destinations" name="destinations">
-              <option value="Any" className="text-shades-400">
-                Any
-              </option>
+            <select
+              id="destinations"
+              name="destinations"
+              className="outline-0 focus:outline-0 text-shades-400"
+            >
+              <option value="Any">Any</option>
               <option value="Option1">Option 1</option>
               <option value="Option2">Option 2</option>
               <option value="Option3">Option 3</option>
@@ -57,10 +59,12 @@ function Hero() {
             <label htmlFor="duration" className="font-bold font-Lora">
               Duration
             </label>
-            <select id="duration" name="duration">
-              <option value="Any" className="text-shades-400">
-                Any
-              </option>
+            <select
+              id="duration"
+              name="duration"
+              className="outline-0 focus:outline-0 text-shades-400"
+            >
+              <option value="Any">Any</option>
               <option value="Option1">Option 1</option>
               <option value="Option2">Option 2</option>
               <option value="Option3">Option 3</option>
@@ -106,10 +110,12 @@ function Hero() {
               <label htmlFor="destinations" className="font-bold font-Lora">
                 Destinations
               </label>
-              <select id="destinations" name="destinations">
-                <option value="Any" className="text-shades-400">
-                  Any
-                </option>
+              <select
+                id="destinations"
+                name="destinations"
+                className="text-shades-400 outline-0 focus:outline-0"
+              >
+                <option value="Any">Any</option>
                 <option value="Option1">Option 1</option>
                 <option value="Option2">Option 2</option>
                 <option value="Option3">Option 3</option>
@@ -119,10 +125,12 @@ function Hero() {
               <label htmlFor="duration" className="font-bold font-Lora">
                 Duration
               </label>
-              <select id="duration" name="duration">
-                <option value="Any" className="text-shades-400">
-                  Any
-                </option>
+              <select
+                id="duration"
+                name="duration"
+                className="text-shades-400 outline-0 focus:outline-0"
+              >
+                <option value="Any">Any</option>
                 <option value="Option1">Option 1</option>
                 <option value="Option2">Option 2</option>
                 <option value="Option3">Option 3</option>
