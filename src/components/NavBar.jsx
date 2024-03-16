@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 function NavBar() {
   return (
-    <header className="w-full flex justify-between items-center h-fit py-4 px-8 bg-neutral-500 z-20 fixed">
-      <div className="flex gap-6">
-        <h1>LOGO</h1>
+    <header className="w-full flex justify-between items-center h-fit  px-8 bg-neutral-500 z-20 fixed">
+      <div className="flex gap-6 items-center">
+        <div>
+          <img
+            src="/assets/logopng2.png"
+            alt="woawafrica logo"
+            className="w-20 h-20 object-contain"
+          />
+        </div>
         <nav>
           <ul className="flex gap-8 font-Lora text-shades-300">
             <Link to="/">
@@ -25,10 +31,7 @@ function NavBar() {
         </nav>
       </div>
 
-      <div className="flex items-center gap-4">
-        <button>Button</button>
-        <button>Button</button>
-      </div>
+      <div className="flex items-center gap-4"></div>
     </header>
   );
 }

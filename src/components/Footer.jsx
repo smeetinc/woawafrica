@@ -5,7 +5,13 @@ function Footer() {
   return (
     <div className="bg-black text-white px-8 py-10">
       <div className="w-full text-center my-10">
-        <h2>LOGO</h2>
+        <div>
+          <img
+            src="assets/logopng2.png"
+            alt="woawafrica logo"
+            className="w-20 h-20 object-contain mx-auto"
+          />
+        </div>
         <div className="inline-block space-x-4 mt-3 mb-5">
           <Link to="/">
             <span>Home</span>
