@@ -1,8 +1,39 @@
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-function NavBar() {
+
+const NavBar = () => {
+  const [menu, setMenu] = useState(false);
+  const links = [
+    {
+      id: 1,
+      link: "/",
+      text: "Home",
+    },
+    {
+      id: 2,
+      link: "destinations",
+      text: "Destinations",
+    },
+    {
+      id: 3,
+      link: "experiences",
+      text: "Experiences",
+    },
+    {
+      id: 4,
+      link: "about",
+      text: "About Us",
+    },
+    {
+      id: 5,
+      link: "contact",
+      text: "Contact Us",
+    },
+  ];
   return (
-    <header className="w-full flex justify-between items-center h-fit  px-8 bg-neutral-500 z-20 fixed">
-      <div className="flex gap-6 items-center">
+    <header className="px-4 shadow fixed w-full z-50 bg-neutral-500 h-fit">
+      <nav className="flex justify-between lg:justify-normal gap-6 items-center">
         <div>
           <img
             src="/assets/logopng2.png"
@@ -10,30 +41,46 @@ function NavBar() {
             className="w-20 h-20 object-contain"
           />
         </div>
-        <nav>
-          <ul className="flex gap-8 font-Lora text-shades-300">
-            <Link to="/">
-              <li>Home</li>
-            </Link>
-            <Link to="/destinations">
-              <li>Destinations</li>
-            </Link>
-            <Link to="/experiences">
-              <li>Experiences</li>
-            </Link>
-            <Link to="/about">
-              <li>About Us</li>
-            </Link>
-            <Link to="/contact">
-              <li>Contact Us</li>
-            </Link>
-          </ul>
-        </nav>
-      </div>
-
-      <div className="flex items-center gap-4"></div>
+        <ul className="hidden lg:flex">
+          {links.map(({ id, link, text }) => (
+            <li
+              key={id}
+              className="text-lg ml-4 cursor-pointer hover:scale-105 duration-200 text-gray-600 capitalize"
+            >
+              <Link to={link} smooth duration={500}>
+                {text}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <div
+          onClick={() => setMenu(!menu)}
+          className="cursor-pointer mr-2 lg:hidden"
+        >
+          {menu ? <FaTimes size={30} /> : <FaBars size={30} />}
+        </div>
+      </nav>
+      {menu && (
+        <ul className="flex flex-col border-0 lg:hidden absolute top-15 right-0 w-full shadow px-4 bg-neutral-500 capitalize">
+          {links.map(({ id, link, text }) => (
+            <li
+              key={id}
+              className="text-center text-lg my-4 mr-4 cursor-pointer hover:scale-105 duration-200 text-gray-600"
+            >
+              <Link
+                onClick={() => setMenu(!menu)}
+                to={link}
+                smooth
+                duration={500}
+              >
+                {text}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
     </header>
   );
-}
+};
 
 export default NavBar;
