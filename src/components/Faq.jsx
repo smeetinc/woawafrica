@@ -10,7 +10,7 @@ function Faq() {
           <span className="text-secondary-300 mt-2">Frequently</span> Asked{" "}
           <span className="text-primary-200">Questions</span>
         </h3>
-        <p className="my-3">
+        <p className="my-4 lg:my-3">
           Explore the Ins and Outs of Your African Adventure with WoawAfrica's
           FAQs.
         </p>
@@ -41,7 +41,7 @@ function Faq() {
           answer="Safety is our top priority. We collaborate with trusted partners, including airports and partner nations' tourism boards, and provide comprehensive information to ensure your travel experience is secure and enjoyable."
         />
       </div>
-      <div className="mt-4 mb-2">
+      <div className="mt-6 lg:mt-4 mb-2">
         <h3 className="my-2 font-bold text-4xl">Still have a question?</h3>
         <p className="my-2">
           Reach out, and let's make your WoawAfrica journey extraordinary!

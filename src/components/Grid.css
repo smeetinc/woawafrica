@@ -50,3 +50,30 @@
 .row-3 {
   grid-row: 3;
 }
+
+@media screen and (max-width: 1200px) {
+  .beauty-title {
+    font-size: 2.5rem;
+  }
+  .beauty-grid {
+    display: block;
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .beauty-image {
+    margin-bottom: 2rem;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .beauty-image {
+    width: 100%;
+    height: 100%;
+  }
+}

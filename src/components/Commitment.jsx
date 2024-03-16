@@ -13,7 +13,7 @@ function Commitment() {
           aperiam?
         </p>
       </div>
-      <div className="my-4 grid grid-cols-3 gap-4">
+      <div className="my-4 lg:grid grid-cols-3 gap-4">
         {/*card starts */}
         <div className="text-center">
           <img src="assets/hands.png" alt="hands" className="mx-auto" />

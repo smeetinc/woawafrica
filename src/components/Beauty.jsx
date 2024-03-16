@@ -4,7 +4,7 @@ import "./Grid.css";
 function Beauty() {
   return (
     <div className="beauty-container">
-      <div className="max-w-3/5 mx-auto my-4">
+      <div className="lg:max-w-3/5 mx-auto my-4">
         <h3 className="beauty-title">
           <span className="text-secondary-300">Unveil</span> the Awe-Inspiring
           <br />
